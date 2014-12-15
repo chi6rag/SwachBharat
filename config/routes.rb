@@ -11,7 +11,9 @@ Rails.application.routes.draw do
 
   # OmniAuth Routes
   get 'auth/facebook', as: "auth_provider"
-  get 'auth/facebook/callback', to: 'home#dashboard'
+  get 'auth/failure', to: redirect('/')
+  get 'auth/:provider/callback', to: 'users#create'
+  get 'signout', to: 'users#destroy', as: 'signout'
   
   resources :marks 
   resources :cleans

@@ -1,6 +1,6 @@
 development:
-  app_id: 395374750613467
-  secret: 22d3d2815aec707674e0c248d7c7da42
-production:
-  app_id: 395374750613467
-  secret: 22d3d2815aec707674e0c248d7c7da42
+  FACEBOOK_APP_ID: 1531791260395366
+  FACEBOOK_SECRET: a3b234119371c7b37b0d41935a3c7f2c
+# production:
+#   app_id: 395374750613467
+#   secret: 22d3d2815aec707674e0c248d7c7da42
